@@ -1,4 +1,4 @@
 # whatsapp
 
-Flutter WhatsApp Clone (Firebase, Riverpod): chatting app with Phone Number Authentication, One to one & Group chatting with contacts only - includes text, image, gif, video, audio (with recording), emoji sharing and image and video caching, status visible to contacts only and disappears after 24 hours, video calling (one-one and group), online/offline status, Message Seen Feature, Automatic Scrolling on New Message, Replying to Messages and much more!
+''' Flutter WhatsApp Clone (Firebase, Riverpod): chatting app with Phone Number Authentication, One to one & Group chatting with contacts only - includes text, image, gif, video, audio (with recording), emoji sharing and image and video caching, status visible to contacts only and disappears after 24 hours, video calling (one-one and group), online/offline status, Message Seen Feature, Automatic Scrolling on New Message, Replying to Messages and much more! '''
 
