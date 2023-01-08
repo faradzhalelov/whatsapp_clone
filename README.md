@@ -1,16 +1,15 @@
-# whatsup
 
-A new Flutter project.
+# Flutter WhatsApp Clone 
 
-## Getting Started
+### Chatting app with features:
+- Phone Number Authentication, 
+- One to one & Group chatting with contacts only
+- includes text, image, gif, video, audio (with recording)
+- emoji sharing and image and video caching
+- status visible to contacts only and disappears after 24 hours
+- video calling (one-one and group)
+- online/offline status 
+- Message Seen Feature
+- Automatic Scrolling on New Message
+- Replying to Messages
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
