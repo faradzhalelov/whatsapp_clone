@@ -1,5 +1,7 @@
 
-# Flutter WhatsApp Clone chatting app:
+# Flutter WhatsApp Clone 
+
+### Chatting app with features:
 - Phone Number Authentication, 
 - One to one & Group chatting with contacts only
 - includes text, image, gif, video, audio (with recording)
