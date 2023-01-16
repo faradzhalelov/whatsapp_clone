@@ -1,5 +1,5 @@
 
-# Flutter WhatsApp Clone 
+# Flutter WhatsApp Clone:
 
 ### Chatting app with features:
 - Phone Number Authentication, 
