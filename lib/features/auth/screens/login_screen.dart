@@ -1,9 +1,10 @@
+import 'package:country_picker/country_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:whatsup/colors.dart';
 import 'package:whatsup/common/widgets/custom_button.dart';
 
 class LoginScreen extends StatefulWidget {
-  static const routeName = '/login-screen';
+  static const String routeName = '/login-screen';
   const LoginScreen({Key? key}) : super(key: key);
 
   @override
@@ -12,11 +13,20 @@ class LoginScreen extends StatefulWidget {
 
 class _LoginScreenState extends State<LoginScreen> {
   final phoneController = TextEditingController();
+  Country? country;
 
   @override
   void dispose() {
     super.dispose();
     phoneController.dispose();
+  }
+
+  void pickCountry() {
+    showCountryPicker(context: context, onSelect: (Country country) {
+      setState(() {
+        this.country = country;
+      });
+    });
   }
 
   @override
@@ -35,11 +45,14 @@ class _LoginScreenState extends State<LoginScreen> {
           children: [
             const Text('WhatsApp will need to verify your phone number'),
             const SizedBox(height: 10,),
-            TextButton(onPressed: () {}, child: const Text('Pick country')),
+            TextButton(
+                onPressed: pickCountry,
+                child: const Text('Pick country')),
             const SizedBox(height: 10,),
             Row(
               children: [
-                Text('+91'),
+                if (country != null)
+                  Text('+${country!.phoneCode}'),
                 const SizedBox(width: 10,),
                 SizedBox(
                   width: size.width * 0.7,

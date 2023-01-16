@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "274860410255-opbb5rmrdul3930o77q6juapvhi6tfa9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.whatsup",
+            "certificate_hash": "54068a49a4ad861bdb7d1c126f00960cde0dfffe"
+          }
+        },
+        {
           "client_id": "274860410255-omnivr5gltasarsidvo3kiqd96l4lt6i.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,6 +37,13 @@
             {
               "client_id": "274860410255-omnivr5gltasarsidvo3kiqd96l4lt6i.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "274860410255-vv7qct053psatqm0cp6d944opbblv6eq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.whatsup"
+              }
             }
           ]
         }
