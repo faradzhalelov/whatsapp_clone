@@ -3,7 +3,7 @@
 
 ### Chatting app with features:
 
-- Phone Number Authentication, 
+- Phone Number Authentication
 - One to one & Group chatting with contacts only
 - includes text, image, gif, video, audio (with recording)
 - emoji sharing and image and video caching
